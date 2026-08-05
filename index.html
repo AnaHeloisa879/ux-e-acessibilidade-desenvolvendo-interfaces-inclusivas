@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital para Idosos</title>
+    <style>
+        /* ==========================================================================
+           1. VARIÁVEIS E ESTILOS BASE (ALTO CONTRASTE E ACESSIBILIDADE)
+           ========================================================================== */
+        :root {
+            --cor-fundo: pink;
+            --cor-cartao: teal;
+            --cor-texto: #111111;
+            --cor-primaria: #003366;
+            --cor-primaria-hover: #002244;
+            --cor-destaque: #FFF3CD;
+            --cor-alerta: #D9534F;
+            --cor-alerta-hover: #C9302C;
+            --cor-borda: black;
+            --tamanho-fonte-base: 22px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: var(--tamanho-fonte-base);
+            line-height: 1.6;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            padding-bottom: 50px;
+        }
+
+        /* ==========================================================================
+           2. SEÇÃO DE INÍCIO (BANNER + BOTÃO DE AJUDA FUNCIONAL)
+           ========================================================================== */
+        .banner-inicio {
+            background-color: var(--cor-primaria);
+            color: #FFFFFF;
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 6px solid #FFC107;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .banner-inicio h1 {
+            font-size: 34px;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .banner-inicio p {
+            font-size: 22px;
+            max-width: 700px;
+            margin: 0 auto 25px auto;
+            line-height: 1.5;
+        }
+
+        /* Botão de Ajuda Funcional */
+        .botao-ajuda-topo {
+            display: inline-block;
+            background-color: var(--cor-alerta);
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 18px 30px;
+            border-radius: 12px;
+            border: 3px solid #FFFFFF;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        .botao-ajuda-topo:hover, .botao-ajuda-topo:focus {
+            background-color: var(--cor-alerta-hover);
+            outline: 4px solid #FFC107;
+            transform: scale(1.02);
+        }
+
+        /* ==========================================================================
+           3. LAYOUT PRINCIPAL E NAVEGAÇÃO
+           ========================================================================== */
+        main {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        /* Menu de atalhos rápidos */
+        .menu-atalhos {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .botao-atalho {
+            flex: 1 1 200px;
+            background-color: #FFFFFF;
+            color: var(--cor-primaria);
+            border: 3px solid var(--cor-primaria);
+            padding: 14px;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .botao-atalho:hover, .botao-atalho:focus {
+            background-color: var(--cor-primaria);
+            color: #FFFFFF;
+            outline: 3px solid #FFC107;
+        }
+
+        /* ==========================================================================
+           4. CARTÕES DE CONTEÚDO
+           ========================================================================== */
+        .secao-conteudo {
+            background-color: var(--cor-cartao);
+            border: 3px solid var(--cor-borda);
+            border-radius: 14px;
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .secao-conteudo h2 {
+            color: var(--cor-primaria);
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 4px solid #FFC107;
+            padding-bottom: 10px;
+        }
+
+        /* Dicas curtas */
+        .item-dica {
+            background-color: #F8F9FA;
+            border-left: 8px solid var(--cor-primaria);
+            border-top: 1px solid #DEE2E6;
+            border-right: 1px solid #DEE2E6;
+            border-bottom: 1px solid #DEE2E6;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .item-dica h3 {
+            color: var(--cor-primaria);
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .item-dica p {
+            font-size: 21px;
+            margin: 0;
+        }
+
+        /* Lista de Direitos e Atitudes Suspeitas */
+        .lista-acessivel {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lista-acessivel li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 18px;
+    font-size:     
