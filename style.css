@@ -9,7 +9,7 @@
     :root {
       --bg-color: #e17e71;
       --card-bg: #1dbb91;
-      --primary-color: #941ba4;
+      --primary-color: #d13999;
       --primary-hover: #1565c0;
       --text-color: #1a1a1a;
       --accent-color: #e65100;
@@ -73,7 +73,7 @@
 
     .access-btn:focus,
     .access-btn:hover {
-      background-color: #ffff00;
+      background-color: #1041d6;
       color: #000000;
       outline: 3px solid #ffffff;
     }
