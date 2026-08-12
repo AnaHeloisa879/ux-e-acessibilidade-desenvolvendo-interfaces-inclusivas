@@ -8,8 +8,8 @@
 
     :root {
       --bg-color: #e17e71;
-      --card-bg: #ffffff;
-      --primary-color: #e3300c;
+      --card-bg: #1dbb91;
+      --primary-color: #941ba4;
       --primary-hover: #1565c0;
       --text-color: #1a1a1a;
       --accent-color: #e65100;
@@ -50,7 +50,7 @@
 
     /* Recurso de Acessibilidade Visual (Feito puramente com CSS :target) */
     .accessibility-bar {
-      background-color: #002171;
+      background-color: #d213e8;
       padding: 10px;
       display: flex;
       justify-content: center;
@@ -59,7 +59,7 @@
     }
 
     .access-btn {
-      background-color: #ffffff;
+      background-color: #13c5a7;
       color: #000000;
       border: 2px solid #ffffff;
       padding: 8px 16px;
@@ -88,14 +88,14 @@
     /* Banner de Alerta e Encorajamento */
     .intro-box {
       background-color: #e8f5e9;
-      border-left: 8px solid #2e7d32;
+      border-left: 8px solid #e20f5c;
       padding: 20px;
       border-radius: 8px;
       margin-bottom: 25px;
     }
 
     .intro-box h2 {
-      color: #1b5e20;
+      color: #cc0aa8;
       margin-bottom: 10px;
       font-size: 1.4em;
     }
